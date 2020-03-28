@@ -18,6 +18,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor=[UIColor orangeColor];
+    UILabel *lable=[[UILabel alloc]initWithFrame:self.view.bounds];
+    lable.text=@"新建的工程";
+    lable.textColor=[UIColor greenColor];
+    lable.textAlignment=UITextAlignmentCenter;
+    lable.numberOfLines=0;
+    lable.font=[UIFont systemFontOfSize:100];
+    [self.view addSubview:lable];
+    
     
 }
 
