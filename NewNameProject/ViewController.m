@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor=[UIColor orangeColor];
     UILabel *lable=[[UILabel alloc]initWithFrame:self.view.bounds];
-    lable.text=@"新建的工程新建的工程新建的工程";
+    lable.text=@"新建的工程新建的工程新建的工程387893";
     lable.textColor=[UIColor greenColor];
     lable.textAlignment=UITextAlignmentCenter;
     lable.numberOfLines=0;
