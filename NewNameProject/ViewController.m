@@ -20,7 +20,7 @@
     self.view.backgroundColor=[UIColor orangeColor];
     UILabel *lable=[[UILabel alloc]initWithFrame:self.view.bounds];
     lable.text=@"新建的工程";
-    lable.textColor=[UIColor greenColor];
+    lable.textColor=[UIColor redColor];
     lable.textAlignment=UITextAlignmentCenter;
     lable.numberOfLines=0;
     lable.font=[UIFont systemFontOfSize:100];
