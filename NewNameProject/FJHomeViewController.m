@@ -27,7 +27,7 @@
         _tableView=[[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
         _tableView.delegate=self;
         _tableView.dataSource=self;
-        _tableView.rowHeight=50;
+        _tableView.rowHeight=60;
         _tableView.backgroundColor=[UIColor groupTableViewBackgroundColor];
     }
     return _tableView;
