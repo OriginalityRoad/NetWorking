@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FJHomeViewController.h"
 
 @interface ViewController ()
 
@@ -31,6 +32,10 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     self.view.backgroundColor=[UIColor magentaColor];
+    FJHomeViewController *homeVc=[[FJHomeViewController alloc]init];
+    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:homeVc];
+    UIWindow *window=[UIApplication sharedApplication].keyWindow;
+    window.rootViewController=nav;
     
 }
 

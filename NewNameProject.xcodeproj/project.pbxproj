@@ -15,6 +15,7 @@
 		4F88DA18242F8D52007641E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F88DA17242F8D52007641E3 /* main.m */; };
 		4F88DA22242F8D52007641E3 /* NewNameProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F88DA21242F8D52007641E3 /* NewNameProjectTests.m */; };
 		4F88DA2D242F8D52007641E3 /* NewNameProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F88DA2C242F8D52007641E3 /* NewNameProjectUITests.m */; };
+		4F88DA3C2434D281007641E3 /* FJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F88DA3B2434D281007641E3 /* FJHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4F88DA28242F8D52007641E3 /* NewNameProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewNameProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F88DA2C242F8D52007641E3 /* NewNameProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewNameProjectUITests.m; sourceTree = "<group>"; };
 		4F88DA2E242F8D52007641E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F88DA3A2434D281007641E3 /* FJHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJHomeViewController.h; sourceTree = "<group>"; };
+		4F88DA3B2434D281007641E3 /* FJHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4F88DA09242F8D50007641E3 /* AppDelegate.m */,
 				4F88DA0B242F8D50007641E3 /* ViewController.h */,
 				4F88DA0C242F8D50007641E3 /* ViewController.m */,
+				4F88DA3A2434D281007641E3 /* FJHomeViewController.h */,
+				4F88DA3B2434D281007641E3 /* FJHomeViewController.m */,
 				4F88DA0E242F8D50007641E3 /* Main.storyboard */,
 				4F88DA11242F8D52007641E3 /* Assets.xcassets */,
 				4F88DA13242F8D52007641E3 /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F88DA0D242F8D50007641E3 /* ViewController.m in Sources */,
+				4F88DA3C2434D281007641E3 /* FJHomeViewController.m in Sources */,
 				4F88DA18242F8D52007641E3 /* main.m in Sources */,
 				4F88DA0A242F8D50007641E3 /* AppDelegate.m in Sources */,
 			);
