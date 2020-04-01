@@ -43,7 +43,7 @@
     if (!cell) {
         cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:tableCell];
     }
-    cell.textLabel.text=[NSString stringWithFormat:@"第%ld行",indexPath.row];
+    cell.textLabel.text=[NSString stringWithFormat:@"展示第%ld行",indexPath.row];
     
     return cell;
 }
