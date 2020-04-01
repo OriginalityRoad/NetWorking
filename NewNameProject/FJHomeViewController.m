@@ -41,10 +41,10 @@
     static NSString *tableCell=@"UITableViewCell";
     UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:tableCell];
     if (!cell) {
-        cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:tableCell];
+        cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:tableCell];
     }
     cell.textLabel.text=[NSString stringWithFormat:@"第%ld行",indexPath.row];
-    
+    cell.detailTextLabel.text=@"详情信息";
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
