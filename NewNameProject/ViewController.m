@@ -26,7 +26,8 @@
     lable.numberOfLines=0;
     lable.font=[UIFont systemFontOfSize:70];
     [self.view addSubview:lable];
-    NSLog(@"");
+    NSLog(@"4567890-=234");
+    
     
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
